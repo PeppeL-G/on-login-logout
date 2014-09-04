@@ -2,7 +2,7 @@ Package.describe({
 	summary: "login and logout callbacks on the client.",
 	version: "1.0.0",
 	name: 'peppelg:on-login-logout',
-	git: " \* Fill me in! *\ "
+	git: "https://github.com/PeppeL-G/on-login-logout.git"
 })
 
 Package.onUse(function(api) {
