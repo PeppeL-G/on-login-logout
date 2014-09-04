@@ -10,9 +10,3 @@ Package.onUse(function(api) {
 	api.use(['accounts-base', 'deps'], 'client')
 	api.addFiles('client.js', 'client')
 })
-
-Package.onTest(function(api) {
-	api.use('tinytest');
-	api.use('on-logout');
-	api.addFiles('on-logout-tests.js');
-})
