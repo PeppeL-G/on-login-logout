@@ -7,7 +7,7 @@ Package.describe({
 
 Package.onUse(function(api) {
 	api.versionsFrom('METEOR@0.9.0.1')
-	api.use('accounts-base', 'client')
+	api.use(['accounts-base', 'deps'], 'client')
 	api.addFiles('client.js', 'client')
 })
 
