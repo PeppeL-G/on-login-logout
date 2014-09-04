@@ -1,5 +1,5 @@
 Package.describe({
-	summary: "Adds the functionality to run a function on the client when a user voluntarily logs out.",
+	summary: "login and logout callbacks on the client.",
 	version: "1.0.0",
 	name: 'peppelg:on-login-logout',
 	git: " \* Fill me in! *\ "
