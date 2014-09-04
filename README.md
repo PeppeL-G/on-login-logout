@@ -7,6 +7,9 @@ Note 1: the methods are only added on the client.
 
 Note 2: the methods can be called multiple times.
 
+Note 3: if the user is logged in at the moment `Accounts.onLogin` is called, the
+callback will fire immediately.
+
 Example
 -------
 Automatically subscribe to a publish when a user is logged in.
